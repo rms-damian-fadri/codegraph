@@ -9,6 +9,9 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### New Features
+
+- VB.NET is now fully supported — CodeGraph indexes `.vb` files natively using the bundled tree-sitter grammar, extracting classes, modules, interfaces, methods (including constructors), properties, fields, constants, enums, and imports, along with call, inheritance, and event-handler edges.
 
 ## [1.1.1] - 2026-06-24
 
